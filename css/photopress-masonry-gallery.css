@@ -1,0 +1,35 @@
+/* MASONRY GALLERY STYLES */
+
+.photopress-gallery-masonry {
+	
+
+}
+
+.photopress-gallery-masonry .gallery-item {
+  position: relative;
+  padding: 0px;
+}
+
+.photopress-gallery-masonry .gallery-item dd {
+  display: none;
+  position: absolute;
+  left:0; right:0; bottom:0;
+  background: rgba(0,0,0,.7);
+  min-height: 30px;
+  border:0px;
+  color: #ffffff;
+  
+}
+
+.photopress-gallery-masonry .gallery-item:hover dd {
+
+  display: block;
+}
+
+.photopress-gallery-masonry .gallery-item {
+	
+  margin: 0 0 10px 0;
+}
+
+.photopress-gallery-masonry .gallery-item img { display: block }
+
