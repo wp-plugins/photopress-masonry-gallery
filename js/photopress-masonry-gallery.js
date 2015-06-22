@@ -19,7 +19,6 @@ photopress.gallery.masonry.prototype = {
 	
 	defaults : {
 
-		//itemSelector: '.gallery-icon > a > img'
 		itemSelector: '.gallery-item'
 		
 	},
@@ -30,11 +29,11 @@ photopress.gallery.masonry.prototype = {
 		var container = jQuery( that.dom_selector );
 		
 		container.imagesLoaded(function(){
-		  container.masonry({
-		   itemSelector : that.options.itemSelector,
-		   gutter: that.options.gutter || 10
-		    //gutterWidth: '15px'
-		    //columnWidth : 
+		
+			container.masonry({
+				
+				itemSelector : that.options.itemSelector,
+				gutter: that.options.gutter || 10
 		  });
 		});
 	}

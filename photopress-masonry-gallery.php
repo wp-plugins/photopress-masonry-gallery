@@ -7,7 +7,7 @@ Description: Adds a Masonry gallery presentation to the core gallery shortcode.
 Author: Peter Adams
 Author URI: http://www.photopressdev.com
 License: GPL v3
-Version: 1.0 
+Version: 1.1 
 */
 
 /**
@@ -171,11 +171,7 @@ function photopress_masonry_gallery_scripts() {
 	);
 	
 	// needed for masonry galleries
-	wp_enqueue_script(
-		'masonry',
-		plugins_url( 'js/jquery.masonry.min.js' , __FILE__ ),
-		array( 'jquery', 'imagesloaded' )
-	);
+	wp_enqueue_script( 'masonry' );
 	
 	// main photopress js lib
 	wp_enqueue_script(

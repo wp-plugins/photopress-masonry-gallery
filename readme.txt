@@ -4,9 +4,9 @@ Donate link: http://www.photopressdev.com
 Tags: photos, images, gallery, photopress, masonry, tiled
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
-Requires at least: 3.7
-Tested up to: 3.7.1
-Stable tag: 1.0
+Requires at least: 3.9
+Tested up to: 4.2.2
+Stable tag: 1.1
 
 Extends the [gallery] shortcode to add a masonry style display option.
 
@@ -51,6 +51,10 @@ Display a gallery of images in a masonry style:
 You need this plugin if you want to display an image gallery using a masonry style on a case by case basis.
  
 == Changelog ==
+
+= 1.1 = 
+
+Removing duplicate masonry js file as plugin comes standard as of WP 3.9.
 
 = 1.0 =
 
